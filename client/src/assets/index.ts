@@ -11,6 +11,9 @@ import ci4 from './ci4.json'
 import book from './book.svg'
 import light from './light.svg'
 import award from './award.svg'
+import twitter from './twitter.svg'
+import insta from './insta.svg'
+import youtube from './youtube.svg'
 
 
 export {
@@ -26,6 +29,7 @@ export {
     ci1,
     ci2,
     ci3,
-    ci4
+    ci4,
+    twitter,insta,youtube
 
 }

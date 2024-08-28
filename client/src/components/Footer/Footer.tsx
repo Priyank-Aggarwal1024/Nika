@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { Link } from "react-router-dom";
-import { logo } from "../../assets";
+import { insta, logo, twitter, youtube } from "../../assets";
 
 function Footer() {
   return (
@@ -62,10 +62,42 @@ function Footer() {
                 </Link>
                 <Link
                   className="text-[rgba(255,255,255,0.56)] text-sm font-normal font-['Inter'] leading-tight"
-                  to={"/blog"}
+                  to={"/waitlist"}
                 >
-                  Blog
+                  Waitlist
                 </Link>
+              </div>
+              <div className="flex flex-col items-start gap-2">
+                <div className="text-white text-sm font-medium font-['Inter'] leading-[16.80px]">
+                  Contact Us
+                </div>
+                <p className="text-[rgba(255,255,255,0.56)] text-sm font-normal font-['Inter'] leading-tight">
+                  customerservice@nika.com
+                </p>
+                <p className="text-[rgba(255,255,255,0.56)] text-sm font-normal font-['Inter'] leading-tight">
+                  222-22-22
+                </p>
+              </div>
+              <div className="flex flex-col items-start gap-2">
+                <div className="text-white text-sm font-medium font-['Inter'] leading-[16.80px]">
+                  Help
+                </div>
+                <p className="text-[rgba(255,255,255,0.56)] text-sm font-normal font-['Inter'] leading-tight">
+                  Terms of Service
+                </p>
+                <p className="text-[rgba(255,255,255,0.56)] text-sm font-normal font-['Inter'] leading-tight">
+                  Privacy Policy
+                </p>
+              </div>
+              <div className="flex flex-col items-start gap-2">
+                <div className="text-white text-sm font-medium font-['Inter'] leading-[16.80px]">
+                  Media
+                </div>
+                <div className="flex gap-4">
+                  <img src={twitter} alt="Twitter" />
+                  <img src={insta} alt="Instagram" />
+                  <img src={youtube} alt="Youtube" />
+                </div>
               </div>
             </div>
             <div className="h-[41px] py-3 justify-center items-center inline-flex">
