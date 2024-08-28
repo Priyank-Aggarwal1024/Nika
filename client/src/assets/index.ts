@@ -20,7 +20,7 @@ import shield2 from './shield2.svg'
 import coin from './coin.svg'
 import cloud from './cloud.svg'
 import circlelottie from './circle-lottie.png'
-
+import mail from './mail.svg'
 
 export {
     logo,
@@ -36,6 +36,6 @@ export {
     ci2,
     ci3,
     ci4,
-    twitter,insta,youtube,code,shield,cloud,coin,shield2,circlelottie
+    twitter,insta,youtube,code,shield,cloud,coin,shield2,circlelottie,mail
 
 }
