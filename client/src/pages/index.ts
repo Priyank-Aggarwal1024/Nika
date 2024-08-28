@@ -1,4 +1,4 @@
-import About from "./ABout";
+import About from "./About";
 import Article from "./Article";
 import Blog from "./Blog";
 import Error404 from "./Error404";
