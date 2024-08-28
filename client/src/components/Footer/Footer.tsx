@@ -41,15 +41,19 @@ function Footer() {
                 <div className="h-[17px] mt-2 justify-start items-center gap-2 inline-flex">
                   <input
                     type="checkbox"
+                    id="check"
                     className="w-4 h-4 relative bg-white rounded-[3px] shadow"
                   />
-                  <div className="text-white text-xs font-light font-['Inter'] leading-none">
+                  <label
+                    htmlFor="check"
+                    className="text-white text-xs font-light font-['Inter'] leading-none"
+                  >
                     I agree to receive marketing emails from Nika
-                  </div>
+                  </label>
                 </div>
               </form>
             </div>
-            <div className="pt-5 pb-[30px] grid sm:grid-cols-4">
+            <div className="pt-5 pb-[30px] grid sm:grid-cols-4 gap-4">
               <div className="flex flex-col items-start gap-2">
                 <div className="text-white text-sm font-medium font-['Inter'] leading-[16.80px]">
                   Page
