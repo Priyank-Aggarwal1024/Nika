@@ -273,7 +273,21 @@ function Home() {
         </div>
       </div>
       {/* Your Security is your priority End */}
-
+      {/* Stay Informed Start */}
+      <div className="lg:p-[0px_80px] xs:p-[0px_40px] p-[0px_16px] w-full flex justify-center">
+        <div className="w-[1280px] max-w-[100%] rounded-[12px] stay-sec sm:p-[60px_24px] p-[24px_12px] flex lg:flex-row flex-col gap-3">
+          <div className="">
+            <div className="text-[#070707] sm:text-[42px] text-[28px] font-['HelveticaNeueCyr'] leading-[42px] font-[550]">
+              Your Security is Our Priority
+            </div>
+            <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter pt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* Stay Informed End */}
       {/* Accessibility Start*/}
       <div className="lg:p-[75px_80px] xs:p-[25px_40px] p-[25px_16px] w-full flex justify-center">
         <div className="max-w-[1280px]">

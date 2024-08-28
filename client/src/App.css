@@ -22,4 +22,9 @@ body {
 
 .bg-hero {
   background-size: cover;
+
+}
+
+.stay-sec {
+  background: url('./assets/bgg1.png');
 }
