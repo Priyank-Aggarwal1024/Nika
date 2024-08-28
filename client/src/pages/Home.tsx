@@ -130,14 +130,15 @@ function Home() {
             <div className="text-[#070707] sm:text-[42px] text-[28px] font-['HelveticaNeueCyr'] leading-[42px] font-[550]">
               Explore Key Offerings
             </div>
-            <div className="flex flex-col gap-8">
-              <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-10 gap-y-8 border-t-[1px] border-[rgba(7,7,7,0.20)]">
-                <div className="flex justify-center items-center sm:py-[77px] lg:py-[23px] py-6">
-                  <div className="sm:w-[284px] sm:h-[284px] w-[288px] h-[260px]">
+            <div className="flex flex-col">
+              <div className="flex sm:flex-row flex-col gap-x-5 gap-y-[17.5px]  border-t-[1px] border-[rgba(7,7,7,0.20)]">
+                <div className="flex sm:w-[50%] justify-center items-center sm:py-[77px] lg:py-[23px] py-6">
+                  <div className="sm:w-[284px] sm:h-[284px] xl:w-[394px] xl:h-[390px] w-[288px] h-[260px]">
                     <Lottie animationData={ci1} loop={true} />
                   </div>
                 </div>
-                <div className="flex items-center ">
+                <div className="sm:h-[inherit] sm:w-[1px] sm:block hidden bg-[rgba(7,7,7,0.20)]"></div>
+                <div className="flex sm:w-[50%] items-center sm:border-t-0 pb-8">
                   <div className="flex flex-col justify-start gap-2">
                     <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
                       Crypto Asset Indices
@@ -150,8 +151,8 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-10 gap-y-8 border-t-[1px] border-[rgba(7,7,7,0.20)]">
-                <div className="flex items-center sm:col-start-1 sm:row-start-1 col-start-1 row-start-2">
+              <div className="flex sm:flex-row flex-col-reverse gap-x-5 gap-y-[17.5px]  border-t-[1px] border-[rgba(7,7,7,0.20)]">
+                <div className="flex sm:w-[50%] items-center pb-8">
                   <div className="flex flex-col justify-start gap-2">
                     <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
                       Real-World Asset (RWA) Products
@@ -164,19 +165,23 @@ function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center items-center sm:py-[77px] lg:py-[23px] py-6">
-                  <div className="sm:w-[265px]  sm:h-[282px] w-[288px] h-[260px]">
+                <div className="sm:h-[inherit] sm:w-[1px] sm:block hidden bg-[rgba(7,7,7,0.20)]"></div>
+
+                <div className="flex sm:w-[50%] justify-center items-center sm:py-[77px] lg:py-[23px] py-6">
+                  <div className="sm:w-[265px] xl:w-[401px] xl:h-[427px]  sm:h-[282px] w-[288px] h-[260px]">
                     <Lottie animationData={ci2} loop={true} />
                   </div>
                 </div>
               </div>
-              <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-10 gap-y-8 border-t-[1px] border-[rgba(7,7,7,0.20)]">
-                <div className="flex justify-center items-center sm:py-[77px] lg:py-[23px] py-6">
-                  <div className="sm:w-[282px]  sm:h-[236px] w-[288px] h-[260px]">
+              <div className="flex sm:flex-row flex-col gap-x-5 gap-y-[17.5px]  border-t-[1px] border-[rgba(7,7,7,0.20)]">
+                <div className="flex sm:w-[50%] justify-center items-center  py-[80px]">
+                  <div className="sm:w-[282px] xl:w-[518px] xl:h-[436px] sm:h-[236px] w-[288px] h-[260px]">
                     <Lottie animationData={ci3} loop={true} />
                   </div>
                 </div>
-                <div className="flex items-center">
+                <div className="sm:h-[inherit] sm:w-[1px] sm:block hidden bg-[rgba(7,7,7,0.20)]"></div>
+
+                <div className="flex sm:w-[50%] items-center pb-8">
                   <div className="flex flex-col justify-start gap-2">
                     <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
                       Yield and Trading Products
@@ -190,8 +195,8 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-10 gap-y-8 border-t-[1px] border-[rgba(7,7,7,0.20)]">
-                <div className="flex items-center sm:col-start-1 sm:row-start-1 col-start-1 row-start-2">
+              <div className="flex sm:flex-row flex-col-reverse gap-x-5 gap-y-[17.5px]  border-t-[1px] border-b-[1px] border-[rgba(7,7,7,0.20)]">
+                <div className="flex sm:w-[50%] items-center pb-8">
                   <div className="flex flex-col justify-start gap-2">
                     <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
                       Arbitrage & Quant Strategies
@@ -204,9 +209,11 @@ function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center items-center">
-                  <div className="sm:w-[272px]  sm:h-[282px] w-[288px] h-[260px]">
-                    <Lottie animationData={ci4} loop={true} />
+                <div className="sm:h-[inherit] sm:w-[1px] sm:block hidden bg-[rgba(7,7,7,0.20)]"></div>
+
+                <div className="flex sm:w-[50%] justify-center items-center py-10">
+                  <div className="sm:w-[272px] xl:w-[342px] xl:h-[355px] sm:h-[282px] w-[288px] h-[260px]">
+                    <img src={ci4} />
                   </div>
                 </div>
               </div>
