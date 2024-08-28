@@ -25,7 +25,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="">
+              <form method="POST" className="">
                 <div className="flex lg:flex-row flex-col gap-1.5">
                   <input
                     className="h-[38px] w-[100%] pl-3 py-3 text-base font-normal font-['Inter'] leading-tight bg-white/20 rounded-md justify-start items-center gap-2.5 inline-flex text-[rgba(255,255,255,.72)]"
@@ -47,7 +47,7 @@ function Footer() {
                     I agree to receive marketing emails from Nika
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
             <div className="pt-5 pb-[30px] grid sm:grid-cols-4">
               <div className="flex flex-col items-start gap-2">

@@ -5,11 +5,17 @@ import {
   ci2,
   ci3,
   ci4,
+  circlelottie,
+  cloud,
+  code,
+  coin,
   her1,
   her2,
   her3,
   her4,
   light,
+  shield,
+  shield2,
 } from "../assets";
 import Lottie from "lottie-react";
 
@@ -221,6 +227,124 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* Your Security is your priority Start*/}
+      <div className="lg:p-[75px_80px] xs:p-[25px_40px] p-[25px_16px] w-full flex justify-center">
+        <div className="max-w-[1280px]">
+          <div className="w-[100%] flex flex-col items-start gap-6">
+            <div className="text-[#070707] sm:text-[42px] text-[28px] font-['HelveticaNeueCyr'] leading-[42px] font-[550]">
+              Your Security is Our Priority
+            </div>
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-3 ">
+              <div className="sm:p-6 p-4 flex items-start gap-4 flex-col rounded-[12px] bg-[#F6F6FD]">
+                <div className="">
+                  <img src={code} alt="Code Box" />
+                </div>
+                <div className="flex flex-col items-start gap-2">
+                  <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
+                    Encryption
+                  </div>
+                  <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter">
+                    Unlock advanced trading opportunities with our Arbitrage &
+                    Quant Strategies. Explore proven techniques, gain insights
+                    from real case studies, and watch video demos to enhance
+                    your trading approach
+                  </p>
+                </div>
+              </div>
+              <div className="sm:p-6 p-4 flex items-start gap-4 flex-col rounded-[12px] bg-[#F6F6FD]">
+                <div className="">
+                  <img src={shield} alt="Shield" />
+                </div>
+                <div className="flex flex-col items-start gap-2">
+                  <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
+                    Protection against hacks
+                  </div>
+                  <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter">
+                    Unlock advanced trading opportunities with our Arbitrage &
+                    Quant Strategies. Explore proven techniques, gain insights
+                    from real case studies, and watch video demos to enhance
+                    your trading approach
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Your Security is your priority End */}
+
+      {/* Accessibility Start*/}
+      <div className="lg:p-[75px_80px] xs:p-[25px_40px] p-[25px_16px] w-full flex justify-center">
+        <div className="max-w-[1280px]">
+          <div className="w-[100%] flex flex-col items-start gap-6">
+            <div className="text-[#070707] sm:text-[42px] text-[28px] font-['HelveticaNeueCyr'] leading-[42px] font-[550]">
+              Accessibility
+            </div>
+            <div className="flex sm:flex-row flex-col-reverse gap-3">
+              <div className="grid sm:w-[50%] grid-rows-3 grid-cols-1 gap-3 ">
+                <div className="sm:p-6 p-4 flex items-start gap-4 flex-col rounded-[12px] bg-[#F6F6FD]">
+                  <div className="">
+                    <img src={cloud} alt="Cloud" />
+                  </div>
+                  <div className="flex flex-col items-start gap-2">
+                    <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
+                      Institutional Grade Security
+                    </div>
+                    <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi
+                    </p>
+                  </div>
+                </div>
+                <div className="sm:p-6 p-4 flex items-start gap-4 flex-col rounded-[12px] bg-[#F6F6FD]">
+                  <div className="">
+                    <img src={coin} alt="Coin" />
+                  </div>
+                  <div className="flex flex-col items-start gap-2">
+                    <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
+                      Investor Centric Approach
+                    </div>
+                    <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi
+                    </p>
+                  </div>
+                </div>
+                <div className="sm:p-6 p-4 flex items-start gap-4 flex-col rounded-[12px] bg-[#F6F6FD]">
+                  <div className="">
+                    <img src={shield2} alt="Shield 2" />
+                  </div>
+                  <div className="flex flex-col items-start gap-2">
+                    <div className="font-HelveticaNeueCyr sm:text-[28px] text-[20px] leading-[110%] tracking-[-1px] font-[550]  text-dark100">
+                      Easily Accessible
+                    </div>
+                    <p className="sm:text-[16px] text-[14px] leading-6 tracking-[-0.08px] font-[400] text-[rgba(7,7,7,0.56)] font-inter">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="sm:w-[50%] sm:h-[inherit] flex justify-center items-center bg-[#F6F6FD]">
+                <img
+                  src={circlelottie}
+                  className="w-[316px] h-[280px] "
+                  alt="Circle Lottie"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Accessibility End */}
+
       <div className="lg:p-[75px_80px] xs:p-[25px_40px] p-[25px_16px] w-full flex justify-center">
         <div className="max-w-[1280px]"></div>
       </div>
