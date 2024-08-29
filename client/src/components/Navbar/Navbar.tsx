@@ -5,8 +5,8 @@ import { ham, logo } from "../../assets";
 
 function Navbar() {
   return (
-    <div className="navbar max-w-[100%] flex justify-center lg:p-[12px_80px]">
-      <div className="flex items-center justify-between w-[1280px] maxw-[100%] lg:h-12 xs:h-[75px] lg:px-0 px-4 xs:px-10 h-[60px]">
+    <div className="navbar max-w-[100%] flex justify-center lg:p-[12px_80px] sticky top-0 bg-white z-[1000]">
+      <div className="flex items-center justify-between w-[1280px] max-w-[100%] lg:h-12 xs:h-[75px] lg:px-0 px-4 xs:px-10 h-[60px]">
         <div className="logo flex justify-center items-center">
           <img src={logo} alt="Nika Logo" />
           <div className="h-[34px] pl-2 pr-[7px] py-1 justify-center items-center gap-1 inline-flex">
@@ -26,7 +26,7 @@ function Navbar() {
           <Link to="/waitlist" className="p-[4px_7px_4px_12px]">
             Waitlist
           </Link>
-          <Link to="/web3" className="p-[4px_7px_4px_12px]">
+          <Link to="/webapp" className="p-[4px_7px_4px_12px]">
             Web3
           </Link>
           {/* <Link to="/article">article</Link> */}

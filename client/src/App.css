@@ -32,9 +32,26 @@ body {
   background-repeat: no-repeat;
 }
 
+.err-404 {
+  background-image: url('./assets/404.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.about-hero {
+  background-image: url('./assets/about-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 @media(width<1024px) {
   .stay-sec {
     background-image: url('./assets/bgg2.png');
+  }
+}
+
+@media(width<780px) {
+  .about-hero {
+    background-image: url('./assets/about-hero2.png');
   }
 }
