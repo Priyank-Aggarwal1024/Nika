@@ -224,10 +224,8 @@ function Blog() {
                 <img src={mail} alt="Mail" />
               </div>
             </div>
-            <button className="h-[34px] p-3 bg-[#5a40fe] rounded flex-col justify-center items-center inline-flex">
-              <div className="text-center text-white text-sm font-medium font-ibm leading-none">
-                Get Started
-              </div>
+            <button className="h-[34px] btn btn1 p- text-center text-sm font-medium font-ibm leading-none rounded flex-col justify-center items-center inline-flex">
+              Get Started
             </button>
           </div>
         </div>

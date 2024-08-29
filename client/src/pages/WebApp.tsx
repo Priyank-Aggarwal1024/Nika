@@ -63,6 +63,27 @@ function WebApp() {
   });
   return (
     <>
+      <div className="lg:p-[160px_80px] webapp-hero xs:p-[120px_40px] justify-center p-[160px_16px] flex items-center">
+        <div className="w-[1280px] max-w-[100%]">
+          <div className="flex flex-col gap-6 w-[672px] max-w-full">
+            <div className="flex flex-col gap-3">
+              <h1 className="lg:text-[64px] text-[42px] tracking-[-1.28px] text-start leading-[100%] text-[#070707] font-HelveticaNeueCyr font-[550] lg:max-w-[690px] max-w-[500px]">
+                Manage your Web3 assets with confidence and ease
+              </h1>
+              <p className="font-inter text-[16px] font-[500] leading-6 text-start text-[rgba(7,7,7,0.72)]">
+                Swap and buy digital assets effortlessly in one secure platform
+              </p>
+            </div>
+            <div className="">
+              <div className="min-h-12 w-full inline-flex">
+                <button className="xs:w-32 w-full h-12 px-4 py-[18px] text-center text-base font-bold font-['Inter'] leading-normal btn btn1 rounded-lg justify-center items-center gap-2.5 flex">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="lg:p-[75px_80px] xs:p-[25px_40px] p-[25px_16px] w-full flex justify-center">
         <div className="w-[1280px] max-w-full">
           <div className="w-[100%] flex flex-col items-start gap-6">

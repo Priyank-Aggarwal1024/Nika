@@ -32,10 +32,8 @@ function Navbar() {
           {/* <Link to="/article">article</Link> */}
           {/* <Link to={`/${Math.random()}`}>error_page</Link> */}
         </div>
-        <button className="w-32 h-12 px-4 py-[18px] bg-[#070707] rounded-lg justify-center items-center gap-2.5 lg:inline-flex hidden">
-          <div className="text-center text-[#fff] text-base font-semibold font-inter leading-tight">
-            Get Started
-          </div>
+        <button className="w-32 btn btn3 h-12 text-center text-base font-semibold font-inter leading-tight px-4 py-[18px] rounded-lg justify-center items-center gap-2.5 lg:inline-flex hidden">
+          Get Started
         </button>
         <div className="hamburger lg:hidden">
           <img src={ham} alt="Hamburger" />

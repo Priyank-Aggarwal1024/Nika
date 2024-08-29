@@ -36,10 +36,8 @@ function Signup() {
                 <img src={mail} alt="Mail" />
               </div>
             </div>
-            <button className="h-[34px] p-3 bg-[#5a40fe] rounded flex-col justify-center items-center inline-flex">
-              <div className="text-center text-white text-sm font-medium font-ibm leading-none">
-                Sign Up
-              </div>
+            <button className="h-[34px] p-3 rounded flex-col justify-center items-center inline-flex text-center text-sm font-medium font-ibm leading-none btn btn1">
+              Sign Up
             </button>
           </div>
         </div>

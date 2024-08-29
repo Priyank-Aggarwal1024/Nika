@@ -62,15 +62,11 @@ function Home() {
             </div>
             <div className="">
               <div className="min-h-12 justify-center items-center flex-wrap gap-[18px] inline-flex">
-                <button className="w-32 h-12 px-4 py-[18px] bg-[#5a40fe] rounded-lg justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-white text-base font-bold font-['Inter'] leading-normal">
-                    Get Started
-                  </div>
+                <button className="w-32 h-12 px-4 py-[18px] text-center text-base font-bold font-inter leading-normal btn btn1 rounded-lg justify-center items-center gap-2.5 flex">
+                  Get Started
                 </button>
-                <button className="w-[159px] h-12 px-4 py-[18px] bg-white rounded-lg border border-[#5a40fe] justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-[#5a40fe] text-base font-bold font-['Inter'] leading-normal">
-                    Join the Waitlist
-                  </div>
+                <button className="w-[159px] h-12 px-4 py-[18px] rounded-lg border btn btn2 justify-center items-center gap-2.5 flex text-center text-base font-bold font-inter leading-normal">
+                  Join the Waitlist
                 </button>
               </div>
             </div>
@@ -305,10 +301,8 @@ function Home() {
                 <img src={mail} alt="Mail" />
               </div>
             </div>
-            <button className="h-[34px] p-3 bg-[#5a40fe] rounded flex-col justify-center items-center inline-flex">
-              <div className="text-center text-white text-sm font-medium font-ibm leading-none">
-                Get Started
-              </div>
+            <button className="h-[34px] btn btn1 p- text-center text-sm font-medium font-ibm leading-none rounded flex-col justify-center items-center inline-flex">
+              Get Started
             </button>
           </div>
         </div>

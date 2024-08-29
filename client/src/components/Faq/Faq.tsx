@@ -75,11 +75,9 @@ function Faq() {
                 </>
               ))}
             </div>
-            <div className="h-[41px] xs:w-fit w-full px-4 py-[15px] bg-[#070707] rounded flex-col justify-center items-center inline-flex">
-              <div className="text-center text-white text-base font-medium font-ibm leading-[17.60px]">
-                Talk to an expert
-              </div>
-            </div>
+            <button className="h-[41px] xs:w-fit w-full px-4 btn btn3 py-[15px] text-center text-base font-medium font-ibm leading-[17.60px] rounded flex-col justify-center items-center inline-flex">
+              Talk to an expert
+            </button>
           </div>
         </div>
       </div>
