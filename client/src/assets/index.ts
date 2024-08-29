@@ -38,7 +38,7 @@ import wc1 from './wc1.svg'
 import wc2 from './wc2.svg'
 import wc3 from './wc3.svg'
 import wc4 from './wc4.svg'
-import lockshield from './lockShield.json'
+import lockshield from './lockshield.json'
 import close  from './close.svg'
 export {
     logo,
