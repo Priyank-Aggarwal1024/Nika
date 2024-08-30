@@ -107,6 +107,16 @@ body {
   border: 1px solid #5a40fe;
 }
 
+.btn5 {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn5:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 @media(width<1024px) {
   .stay-sec {
     background-image: url('./assets/bgg2.png');
