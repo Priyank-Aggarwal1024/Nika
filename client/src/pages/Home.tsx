@@ -22,8 +22,12 @@ import Lottie from "lottie-react";
 import { Signup } from "../components";
 import { useEffect } from "react";
 
-// 2xl:bg-[url(./src/assets/her1.svg)] lg:bg-[url(./src/assets/her2.svg)] xs:bg-[url(./src/assets/her3.svg)] bg-[url(./src/assets/her4.svg)]
-function Home() {
+type proptype = {
+  setCongrats: React.Dispatch<React.SetStateAction<boolean>>;
+  congrats: boolean;
+};
+function Home(prop: proptype) {
+  const { congrats, setCongrats } = prop;
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -62,7 +66,10 @@ function Home() {
             </div>
             <div className="">
               <div className="min-h-12 justify-center items-center flex-wrap gap-[18px] inline-flex">
-                <button className="w-32 h-12 px-4 py-[18px] text-center text-base font-bold font-inter leading-normal btn btn1 rounded-lg justify-center items-center gap-2.5 flex">
+                <button
+                  className="w-32 h-12 px-4 py-[18px] text-center text-base font-bold font-inter leading-normal btn btn1 rounded-lg justify-center items-center gap-2.5 flex"
+                  onClick={() => setCongrats(!congrats)}
+                >
                   Get Started
                 </button>
                 <button className="w-[159px] h-12 px-4 py-[18px] rounded-lg border btn btn2 justify-center items-center gap-2.5 flex text-center text-base font-bold font-inter leading-normal">
@@ -369,7 +376,7 @@ function Home() {
               <div className="sm:w-[50%] sm:h-[inherit] flex justify-center items-center bg-[#F6F6FD]">
                 <Lottie
                   animationData={circlelottie}
-                  className="w-[316px] h-[280px] "
+                  className="xs:w-[316px] w-full max-w-full max-h-full h-[280px] "
                   alt="Circle Lottie"
                 />
               </div>

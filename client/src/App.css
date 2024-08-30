@@ -124,6 +124,13 @@ body {
   color: #fff;
 }
 
+.cgrad {
+  background: url('./assets/congrats-grad.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .mob-nav {
   position: fixed;
   z-index: 1000;

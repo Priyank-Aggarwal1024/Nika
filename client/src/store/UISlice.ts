@@ -9,7 +9,7 @@ const UISlice = createSlice({
     initialState,
     reducers: {
         setNavOpen: (state, action) => {
-            console.log(action)
+            console.log(action.payload)
             state.navOpen = action.payload
         },
     }

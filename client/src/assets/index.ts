@@ -49,6 +49,8 @@ import artSoc4 from './art-soc4.svg'
 import lockshield from './lockshield.json'
 import close  from './close.svg'
 import mailWhite from './mail-white.svg'
+import congratPaper  from './congrat-paper.svg'
+import cclose from './c-close.svg'
 export {
     logo,
     ham,
@@ -64,6 +66,5 @@ export {
     ci3,
     ci4,
     twitter,insta,youtube,code,shield,cloud,coin,shield2,circlelottie,mail,bl1,bl2,bl3,jo1,jo2,jo3,jo4,jo5,jo6,jo7,
-    wa1,wa2,wa3,wc1,wc2,wc3,wc4,lockshield,close,al1,al2,al3,al4,artSoc1,artSoc2,artSoc3,artSoc4,mailWhite
-
+    wa1,wa2,wa3,wc1,wc2,wc3,wc4,lockshield,close,al1,al2,al3,al4,artSoc1,artSoc2,artSoc3,artSoc4,mailWhite,congratPaper,cclose
 }
