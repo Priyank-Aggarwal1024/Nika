@@ -6,7 +6,6 @@ import {
   al2,
   al3,
   al4,
-  articleTech,
   artSoc1,
   artSoc2,
   artSoc3,
@@ -281,11 +280,7 @@ function ArticlePage(prop: propType) {
                   to guide businesses through complex financial landscapes has
                   never been more critical.
                 </div>
-                <img
-                  src={articleTech}
-                  className="w-[100%] h-[307px]"
-                  alt="ArticleTechnology Image"
-                />
+                <div className="w-[100%] article-tech h-[307px]" />
               </div>
               <div className="xs:py-8 py-4 flex flex-col gap-4 w-full">
                 <div
@@ -352,11 +347,7 @@ function ArticlePage(prop: propType) {
                   specialty tax incentives will remain invaluable to businesses
                   looking to thrive in an era of constant change.
                 </div>
-                <img
-                  src={articleTech}
-                  className="w-[100%] h-[307px]"
-                  alt="ArticleTechnology Image"
-                />
+                <div className="w-[100%] article-tech h-[307px]" />
               </div>
               <form
                 method="POST"

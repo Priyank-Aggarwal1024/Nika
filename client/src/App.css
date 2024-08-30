@@ -56,6 +56,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.article-tech {
+  background-image: url('./assets/article-tech3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
 .btn {
   cursor: pointer;
   transition: all 40ms;
@@ -139,6 +146,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .article-tech {
+    background-image: url('./assets/article-tech.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
 
 
 }
