@@ -31,7 +31,7 @@ function Blog(prop: propType) {
                 onClick={() => setSelecttag(item)}
                 key={ind}
               >
-                #{item}
+                #{item.replace(" ", "")}
               </p>
             ))}
           </div>
